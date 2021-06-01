@@ -100,6 +100,16 @@ export default {
             component : './companyIntroduce'
           },
           {
+            path: '/about-product',
+            name: 'about-product',
+            component : './productIntroduce'
+          },
+          {
+            path: '/about-contact',
+            name: 'about-contact',
+            component : './companyIntroduce'
+          },
+          {
             component: './404',
           },
         ],
