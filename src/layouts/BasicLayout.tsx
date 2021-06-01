@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-21 21:11:13
- * @LastEditTime: 2021-06-01 23:15:53
+ * @LastEditTime: 2021-06-01 22:17:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \newStart\sss\we\src\layouts\BasicLayout.tsx
@@ -36,11 +36,11 @@ const BasicLayout: React.FC<any> = props => {
               <Icon component={companyIntroduce} />
               <span>公司介绍</span>
             </Menu.Item>
-            <Menu.Item key="/about-product">
+            <Menu.Item key="2">
               <Icon component={showProduct} />
               <span>产品展示</span>
             </Menu.Item>
-            <Menu.Item key="/about-contact">
+            <Menu.Item key="3">
               <Icon component={iphone} />
               <span>联系方式</span>
             </Menu.Item>
