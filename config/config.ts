@@ -86,7 +86,7 @@ export default {
         routes: [
           {
             path: '/',
-            redirect: '/welcome',
+            redirect: '/about-us',
           },
           {
             path: '/welcome',
@@ -94,7 +94,11 @@ export default {
             icon: 'smile',
             component: './Welcome',
           },
-        
+          {
+            path: '/about-us',
+            name: 'about-us',
+            component : './companyIntroduce'
+          },
           {
             component: './404',
           },

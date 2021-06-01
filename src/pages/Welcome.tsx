@@ -1,10 +1,12 @@
-import React, { Fragment } from 'react';
-
+import React from 'react';
+import styles from './Welcome.less'
 
 
 
 export default (): React.ReactNode => (
-  <Fragment>
-    欢迎来到我的世界
-  </Fragment>
+  <div className = {styles.content}>
+      <div>
+          
+      </div>
+  </div>
 );

@@ -1,0 +1,47 @@
+html,
+body, #root{
+  height : 100%;
+}
+.content {
+    background: #fff;
+    min-width: 1120px;
+    height : 100%;
+    min-height: 600px;
+    display: flex;
+    .subMemu {
+        width: 300px;
+        height : 100%;
+        border-right : 1px solid #ff0;
+        img {
+            width: 250px;
+            margin-top: 40px;
+            margin-left: 25px;
+        }
+        .memu {
+            height :70%;
+            margin-top: 100px;
+            position: relative;
+            .message {
+                position: absolute;
+                bottom: 0;
+                div {
+                    padding: 0 20px;
+                    font-size: 12px;
+                    color: rgb(116, 116, 116)
+                }
+                .Contact {
+                    font-size: 16px;
+                    color :#000;
+                }
+                .sitewidget {
+                    font-size: 12px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .main {
+        min-width: 820px;
+        flex :1;
+    }
+}
